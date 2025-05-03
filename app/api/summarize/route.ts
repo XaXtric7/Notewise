@@ -5,8 +5,15 @@ import {
   HarmBlockThreshold,
 } from "@google/generative-ai";
 
-// Use the provided API key
-const apiKey = "AIzaSyACYx5ei2sV3HOiK-KDb1MO8FzueOK4wXU";
+// Get the API key from environment variables
+const apiKey = process.env.GOOGLE_GEMINI_API_KEY || "";
+
+// Validate API key
+if (!apiKey) {
+  console.warn(
+    "Warning: GOOGLE_GEMINI_API_KEY environment variable is not set. API calls will fail."
+  );
+}
 
 // Initialize the Google Generative AI
 const genAI = new GoogleGenerativeAI(apiKey);

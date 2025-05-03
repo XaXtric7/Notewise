@@ -63,10 +63,12 @@ pnpm install
 📝 Create a `.env.local` file in the root directory with your Google Gemini API key:
 
 ```
-GOOGLE_API_KEY=your_api_key_here
+GOOGLE_GEMINI_API_KEY=your_api_key_here
 ```
 
-> 🔐 _The app uses a demo API key if none is provided, but it may be rate-limited._
+> 🔐 _For convenience, you can copy and rename the `.env.example` file to `.env.local` and add your API key._
+> 🔑 _Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)._
+> 🚨 _Never commit your `.env.local` file to version control!_
 
 ### ▶️ Start the Development Server
 
