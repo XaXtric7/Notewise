@@ -2,7 +2,7 @@
 
 **Notewise** is a powerful web application designed to help students and professionals effortlessly summarize and extract key information from lecture notes and educational PDF documents using Google's Gemini AI.
 
-![Image](https://github.com/user-attachments/assets/c6b533f0-cec1-4b20-9878-96814c6737af)
+![Image](https://github.com/user-attachments/assets/741095ed-57f8-4f2c-8f23-4ab44114043e)
 
 ---
 
