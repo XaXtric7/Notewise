@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lecture Notes Summarizer",
+  title: "Notewise - Lecture Notes Summarizer",
   description: "Summarize your lecture notes with Gemini AI",
   generator: "v0.dev",
 };

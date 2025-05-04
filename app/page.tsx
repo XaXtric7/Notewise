@@ -10,7 +10,7 @@ export default function HomePage() {
             Powered by Google Gemini
           </div>
           <h1 className="text-3xl font-bold text-slate-800 mb-4 md:text-4xl lg:text-5xl">
-            Lecture Notes Summarizer
+            Notewise - Lecture Notes Summarizer
           </h1>
           <p className="text-slate-600 max-w-2xl mx-auto text-base md:text-lg">
             Upload your PDF lecture notes and get an AI-generated summary with
